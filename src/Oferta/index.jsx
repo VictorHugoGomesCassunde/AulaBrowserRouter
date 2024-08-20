@@ -1,5 +1,14 @@
+
+
 export default function Oferta(){
     return(
-        <p>Minha Oferta</p>
+
+    
+        <p>Ofertas do dia</p>
+       
+        
+
+        
+
     )
 }
