@@ -7,16 +7,18 @@ import '../global.css';
 
 export default function Home() {
    return (
+    
        <>
            <Header />
-           
-           <div className="home-container">
-               <div className="logo-container">
+           <br></br>
+           <br></br>
+           <div className="logo-container">
                    <img src="https://yt3.googleusercontent.com/xL8Gl4WeEY1MSwjTqtFzk1QLtoi2vTh24pZNWfDXEXjNCBP2PFooN8LCGf6V2VkMnLg1LRZleg=s900-c-k-c0x00ffffff-no-rj" alt="Logo" className="Logo" />
+                   <div className="logo-text">loja of sonarian</div>
                </div>
-               <p>Tá bom tá</p>
-               
-               <Carousel
+               <br></br>
+               <br></br>
+           <Carousel
                    infiniteLoop
                    useKeyboardArrows
                    autoPlay
@@ -35,7 +37,11 @@ export default function Home() {
                        <img src="https://tr.rbxcdn.com/bd1e0180570ae754abdc76a35b6e973f/768/432/Image/Webp" alt="Slide 3" className="Slide" />
                    </div>
                </Carousel>
+           <div className="home-container">
+               <p>Cê bom tá</p>
            </div>
+           
        </>
+
    );
 }

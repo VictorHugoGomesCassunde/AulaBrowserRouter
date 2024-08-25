@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"
 export default function Header(){
     return(
         <>
-        <nav>
-            <ul>
+       <nav className="header-nav">
+       <ul className="header-menu">
                 <Link to="/Home">
                 <li>Home</li>
                 </Link>

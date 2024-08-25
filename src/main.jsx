@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import Oferta from './Oferta';
 import Header from './components/Header';
-import ListaProduto from './Produtos/ListarProdutos';
+import ListaProduto from './components/ListarProdutos';
 import './global.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
