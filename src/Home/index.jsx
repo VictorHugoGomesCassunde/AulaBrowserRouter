@@ -48,7 +48,7 @@ export default function Home() {
           <h1>Produtos Disponiveis</h1>
           <ListarProdutos listaProduto={produtos} />
             </main>
-            <Footer />
+            <Footer Direitos={"Victor Hugo Gomes Cassundé"}/>
       </>
     );
   }
