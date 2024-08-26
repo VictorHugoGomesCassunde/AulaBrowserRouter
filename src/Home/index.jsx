@@ -7,11 +7,11 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 export default function Home() {
     const [produtos, setProdutos] = useState([
-        { id: 1, nome: "Arsonos", imagem: "https://cdn.nookazon.com/creaturesofsonaria/Creatures/Arsonos.png", preco: "mush 200🍄" },
-        { id: 2, nome: "Kiiwin", imagem: "https://cdn.nookazon.com/creaturesofsonaria/Creatures/Kiiwin.png", preco: "mush 100🍄" },
-        { id: 3, nome: "Hellion Warden", imagem: "https://cdn.nookazon.com/creaturesofsonaria/Creatures/Hellion_Warden.png", preco: "mush 4k-4.5k🍄" },
-        { id: 4, nome: "Auraron", imagem: "https://i.namu.wiki/i/XrPoU5DPyCNX5PSRiGNKSYi7ldiCkaDPxPjzWSgn8ALeSXvrXUBDZdRNyTAXA8eFEoqVL3DvotDQy2I60HC0Yw.webp", preco: "mush 1.5k-2k🍄" },
-        { id: 5, nome: "Umbraxi", imagem: "https://i.namu.wiki/i/puLLe1KqlWXvBV7zTuIBFegPCg3RfUjLzooasw4yjkvbzGLo0dQ4P_2e2RE5HqHb8VipVHmOvcC-ri46yiPUHg.webp", preco: "mush 6k-7k🍄" },
+        { id: 1, nome: "Paru-Gama", imagem: "https://cdn.nookazon.com/creaturesofsonaria/Creatures/Paru-Gama.png", preco: "mush 200🍄" },
+        { id: 2, nome: "Aesmir", imagem: "https://cdn.nookazon.com/creaturesofsonaria/Creatures/Aesmir.png", preco: "mush 100🍄" },
+        { id: 3, nome: "Amolis", imagem: "https://cdn.nookazon.com/creaturesofsonaria/Creatures/Amolis.png", preco: "mush 4k-4.5k🍄" },
+        { id: 4, nome: "Adharcaiin", imagem: "https://cdn.nookazon.com/creaturesofsonaria/Creatures/Adharcaiin.png", preco: "mush 1.5k-2k🍄" },
+        { id: 5, nome: "Ahri'Tahmuk", imagem: "https://cdn.nookazon.com/creaturesofsonaria/Creatures/AhriTahmuk.png", preco: "mush 6k-7k🍄" },
     ]);
   
     return (
