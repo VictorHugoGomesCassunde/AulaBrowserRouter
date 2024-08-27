@@ -5,4 +5,3 @@ export default function Footer({ Direitos }){
         </footer>
     )
 }
-<Footer Direitos={"Victor Hugo Gomes Cassundé"}/>
